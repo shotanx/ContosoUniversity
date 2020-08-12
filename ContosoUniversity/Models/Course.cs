@@ -18,7 +18,7 @@ namespace ContosoUniversity.Models
         [Required]
         public string Title { get; set; }
 
-        [Range(4, 7)]
+        [Range(0, 7)]
         public int Credits { get; set; }
 
         public int DepartmentID { get; set; }
